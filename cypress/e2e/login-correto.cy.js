@@ -5,6 +5,6 @@ describe('Página de cadastro', () => {
   })
 
   it('Preencher os campos do formulário corretamente para logar um usuário', () => {
-      cy.login('teste12', 'senhateste')
+    cy.login('teste12', 'senhateste')
   })
 })
